@@ -43,7 +43,7 @@
 
 			<div class="slides">
 
-				<section data-background-image = "images/cover.png">
+				<section data-background-image = "images/cover.png"; background-size: 100%>
 					<div class="wrapper">
 					  <div>
 							<h3>Civil Service Reimagine</h3>
@@ -56,11 +56,18 @@
 				</section>
 
 				<section>
-					<section data-background-image = "images/slidetemp.png">
+					<section data-background-image = "images/slidetemp.png"; background-size: 100>
 						<font color = "red>"<h1>Data</h1></font>
 					</section>
 					<section data-background="#ffffff">
-						<iframe width="853px" height="480px" src="dataVis/country.html" frameborder="0"></iframe>
+						<div id="Container"
+						 style="padding-bottom:56.25%; position:relative; display:block; width: 100%">
+						 <iframe id="Country_graph"
+						  width="100%" height="100%"
+						  src="dataVis/country.html"
+						  frameborder="0" allowfullscreen=""
+						  style="position:absolute; top:0; left: 0"></iframe>
+						</div>
 					</section>
 					<section data-background="#ffffff">
 						<iframe width="853px" height="480px" src="dataVis/never_internet.html" frameborder="0"></iframe>
