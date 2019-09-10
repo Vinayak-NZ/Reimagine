@@ -73,9 +73,9 @@ hc_zero_int <- region_zero_long %>%
   hchart("bar", hcaes(x = "Region", y = "percentage", group = "year"))
 
 saveWidget(hc_country, file = "country.html")
-saveWidget(hc_disabledPeople, file = "country.html")
-saveWidget(hc_econAct, file = "never_internet.html")
-saveWidget(hc_income, file = "zero_internet.html")
-saveWidget(hc_noInternet, file = "zero_internet.html")
+saveWidget(hc_disabledPeople, file = "disabledPeople.html")
+saveWidget(hc_econAct, file = "econAct.html")
+saveWidget(hc_income, file = "income.html")
+saveWidget(hc_noInternet, file = "noInternet.html")
 saveWidget(hc_never_int, file = "never_internet.html")
 saveWidget(hc_zero_int, file = "zero_internet.html")
